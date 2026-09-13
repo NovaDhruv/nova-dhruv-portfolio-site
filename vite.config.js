@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/nova-dhruv-portfolio-site/',
   plugins: [tailwindcss(), react()],
   server: {
     proxy: {
